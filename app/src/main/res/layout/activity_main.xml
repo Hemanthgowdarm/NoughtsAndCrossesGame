@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="692dp"
+        android:background="#879"
+        android:padding="12px"
+        android:text="Noughts And Crosses"
+        android:textAlignment="center"
+        android:textColor="#43fd"
+        android:textSize="33dp" />
+
+    <Button
+
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="400dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="400dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="400dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="270dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="270dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="270dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <Button
+
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="createFile"
+        android:text="*"
+        android:textColor="#68ac"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="221dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="549dp"
+        android:text="Winner(X or O)"
+        android:textAlignment="center"
+        android:textColor="#7c91"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="34dp"
+        android:backgroundTint="#CE4352DD"
+        android:onClick="onResetButtonClick"
+        android:text="Reset" />
+
+</RelativeLayout>
